@@ -102,7 +102,6 @@ libsoup_2_4_la_LIBADD =			\
 	$(GLIB_LIBS)			\
 	$(LIBWS2_32)			\
 	$(XML_LIBS)			\
-	$(SQLITE_LIBS)			\
 	$(KRB5_LIBS)
 
 libsoup_2_4_la_SOURCES =		\
@@ -147,7 +146,6 @@ libsoup_2_4_la_SOURCES =		\
 	soup-converter-wrapper.c	\
 	soup-cookie.c			\
 	soup-cookie-jar.c		\
-	soup-cookie-jar-db.c		\
 	soup-cookie-jar-text.c		\
 	soup-date.c			\
 	soup-directory-input-stream.h	\
