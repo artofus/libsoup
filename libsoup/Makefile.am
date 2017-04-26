@@ -101,7 +101,6 @@ libsoup_2_4_la_LDFLAGS =	\
 libsoup_2_4_la_LIBADD =			\
 	$(GLIB_LIBS)			\
 	$(LIBWS2_32)			\
-	$(XML_LIBS)			\
 	$(KRB5_LIBS)
 
 libsoup_2_4_la_SOURCES =		\
@@ -203,9 +202,7 @@ libsoup_2_4_la_SOURCES =		\
 	soup-value-utils.c		\
 	soup-version.c			\
 	soup-websocket.c		\
-	soup-websocket-connection.c	\
-	soup-xmlrpc.c			\
-	soup-xmlrpc-old.c
+	soup-websocket-connection.c
 
 # TLD rules
 EXTRA_DIST += tld-parser.py
