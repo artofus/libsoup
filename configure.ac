@@ -90,14 +90,6 @@ AC_SUBST(GLIB_MAKEFILE)
 
 GLIB_TESTS
 
-PKG_CHECK_MODULES(XML, libxml-2.0)
-AC_SUBST(XML_CFLAGS)
-AC_SUBST(XML_LIBS)
-
-PKG_CHECK_MODULES(SQLITE, sqlite3)
-AC_SUBST(SQLITE_CFLAGS)
-AC_SUBST(SQLITE_LIBS)
-
 dnl ***********************
 dnl *** Check for Win32 ***
 dnl ***********************
