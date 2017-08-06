@@ -28,7 +28,7 @@ soup_init (void)
 	bindtextdomain (GETTEXT_PACKAGE, localedir);
 	g_free (localedir);
 	g_free (basedir);
-#else
+#elif !defined(__UCLIBC__)
 	bindtextdomain (GETTEXT_PACKAGE, LOCALEDIR);
 #endif
 #ifdef HAVE_BIND_TEXTDOMAIN_CODESET
